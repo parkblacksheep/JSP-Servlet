@@ -1,0 +1,28 @@
+package kr.co.kosta.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class JDBCConnectTest {
+	public Connection con;
+	public Statement stmt;
+	public PreparedStatement pstmt;
+	public ResultSet rs;
+	
+	//기본 생성자
+	public JDBCConnectTest() {
+		try {
+			// Driver Load
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			//DB 연결
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+//	연결 헤제 및 자원 반납
+	public void close() {
+		
+	}
+}

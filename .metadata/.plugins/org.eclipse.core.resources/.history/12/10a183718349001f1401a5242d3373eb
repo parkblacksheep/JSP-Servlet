@@ -1,0 +1,27 @@
+package kr.co.kosta.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+public class DBConnPoolTest {
+	public Connection con;
+	public Statement stmt;
+	public PreparedStatement pstmt;
+	public ResultSet rs;
+	
+	public DBConnPoolTest() {
+		//DataSource(Connection Pool) 얻기
+		try {
+			Context context = new InitialContext();
+		} catch (NamingException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

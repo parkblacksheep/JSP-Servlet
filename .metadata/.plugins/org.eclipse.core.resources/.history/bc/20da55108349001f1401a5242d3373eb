@@ -1,0 +1,17 @@
+package kr.co.kosta.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class DBCOnnPoolTest {
+	public Connection con;
+	public Statement stmt;
+	public PreparedStatement pstmt;
+	public ResultSet rs;
+	
+	public DBCOnnPoolTest() {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package kr.co.kosta.servlet;
+
+import jakarta.annotation.PostConstruct;
+import jakarta.servlet.http.HttpServlet;
+
+public class LifeCycle extends HttpServlet{
+	
+	@PostConstruct
+	public void myPostConstruct() {
+		System.out.println("@PostConstruct (전처리) 호출");
+	}
+}

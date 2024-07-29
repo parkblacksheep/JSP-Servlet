@@ -1,0 +1,20 @@
+<%@page import="kr.co.kosta.common.PersonDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	pageContext.setAttribute("pageInteger", 1000);
+	pageContext.setAttribute("pageString","페이지 영역의 문자열");
+	pageContext.setAttribute("pageDTO", new PersonDTO);
+	
+%>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

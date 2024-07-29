@@ -1,0 +1,8 @@
+package kr.co.kosta.servlet;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class AnnoMappingServlet extends HttpServlet{
+	
+	
+}

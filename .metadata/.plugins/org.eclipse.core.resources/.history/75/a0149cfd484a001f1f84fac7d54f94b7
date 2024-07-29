@@ -1,0 +1,23 @@
+<%@page import="kr.co.kosta.jdbc.JDBCConnectTest"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>회원 목록 조회</h2>
+	<%
+		JDBCConnectTest jdbc = new JDBCConnectTest();
+	
+		//쿼리문 준비하기 
+		String sql ="SELECT id, pass, name, regidate FROM teampro.`member`";
+		jdbc.pstmt=jdbc.con.createStatement()(sql);
+		jdbc.
+		
+		jdbc.close();
+	%>
+</body>
+</html>

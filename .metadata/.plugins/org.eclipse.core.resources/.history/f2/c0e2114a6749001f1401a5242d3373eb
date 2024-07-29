@@ -1,0 +1,21 @@
+<%@page import="kr.co.kosta.jdbc.JDBCConnectTest"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JDBC test1</title>
+	</head>
+	
+	<body>
+		<%
+			JDBCConnectTest jdbc1 = new JDBCConnectTest();
+			jdbc1.close();
+		%>
+		<h2>JDBC 테스트2</h2>
+		<%
+			application.getInitParameter(MySQLDriver);
+		%>
+	</body>
+</html>

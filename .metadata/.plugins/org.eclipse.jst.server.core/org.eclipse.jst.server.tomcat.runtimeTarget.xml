@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/annotations-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/annotations/2.1/apidocs/jakarta.annotation/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/catalina-ant.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/catalina-ha.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/catalina-ssi.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/catalina-storeconfig.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/catalina-tribes.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/catalina.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/ecj-4.27.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/el-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/expression-language/5.0/apidocs/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/jakartaee-migration-1.0.8-shaded.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/jasper-el.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/jasper.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/jaspic-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/authentication/3.0/apidocs/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/jsp-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/pages/3.1/apidocs/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/servlet-api.jar" runtime-id="Apache Tomcat v10.1" source-attachment-path="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-src">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/servlet/6.0/apidocs/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-coyote-ffm.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-coyote.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-dbcp.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-cs.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-de.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-es.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-fr.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-ja.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-ko.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-pt-BR.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-ru.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-i18n-zh-CN.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-jdbc.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-jni.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-util-scan.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-util.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/tomcat-websocket.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-10.1-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/websocket-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/websocket/2.1/apidocs/"/>
+  </source-attachment>
+  <source-attachment entry="D:/apache-tomcat/apache-tomcat-10.1.26/apache-tomcat-10.1.26-windows-x64/apache-tomcat-10.1.26/lib/websocket-client-api.jar" runtime-id="Apache Tomcat v10.1">
+    <attribute name="javadoc_location" value="https://jakarta.ee/specifications/websocket/2.1/apidocs/"/>
+  </source-attachment>
+</classpath>

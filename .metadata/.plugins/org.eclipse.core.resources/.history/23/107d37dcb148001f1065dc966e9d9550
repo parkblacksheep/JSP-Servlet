@@ -1,0 +1,7 @@
+package kr.co.kosta.servlet;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class LifeCycle extends HttpServlet{
+
+}
