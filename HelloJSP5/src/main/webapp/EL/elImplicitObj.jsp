@@ -32,12 +32,6 @@
 		<li>어플리케이션 영역: ${applicationScope}</li>
 		<br>
 		
-		<li>페이지 영역: ${pageScope}</li>
-		<li>리퀘스트 영역: ${requestScope}</li>
-		<li>세션 영역: ${sessionScope}</li>
-		<li>어플리케이션 영역: ${applicationScope}</li>
-		<br>
-		
 		<jsp:forward page="elImplicitObjForward.jsp"></jsp:forward>
 	</ul>
 </body>
