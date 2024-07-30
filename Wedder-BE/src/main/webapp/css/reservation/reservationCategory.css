@@ -1,0 +1,165 @@
+/* 타이틀 */
+.title {
+    text-align: left;
+    color: #CA1A5A;
+}
+
+.title-sub {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+
+.title-main {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* 스텝 Bar */
+.steps-bar {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+}
+
+.step {
+  color: #737373;
+  position: relative;
+  flex: 1;
+  padding: 13px 20px;
+  text-align: center;
+  background: #f3f3f3;
+}
+
+.step::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #f3f3f3;
+  z-index: 1;
+}
+
+.step:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    /* border-left: 20px solid #f1f1f1; */
+    z-index: 2;
+}
+
+.step.active::after {
+  border-left-color: #000;
+}
+
+.step.active {
+  background: #000;
+  color: #fff;
+}
+
+/* 안내멘트 */
+.guide {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.guide-step {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 20px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.guide-explain {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  padding-top: 3px;
+  padding-left: 11px;
+}
+
+/* 카테고리 리스트 */
+.category-all {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  margin: 50px 75px;
+}
+
+.category {
+   width: 450px;
+   height: 500px;
+   margin: 0;
+   position: relative;
+   cursor: pointer;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.category-text {
+  font-size: 40px;
+  position: absolute;
+  bottom: 35px;
+  left: 9%;
+}
+
+.category-text2 {
+  font-size: 40px;
+  position: absolute;
+  bottom: 0px;
+  left: 9%;
+}
+
+.category:nth-of-type(1){
+    color: #fff;
+}
+
+.category:nth-of-type(3) {
+    color: #442400;
+}
+
+.category-selected {
+  box-shadow: 5px 5px 7px #737373;
+}
+
+/* 다음 단계 버튼 */
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 72px;
+}
+
+.btn-nxt {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 120px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.btn-nxt:hover {
+  background-color: #717171;
+  border: 1px solid #717171;
+}

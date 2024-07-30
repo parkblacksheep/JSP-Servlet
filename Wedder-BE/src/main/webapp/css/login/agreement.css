@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*창 설정*/
+.agreement{
+    position: absolute;
+    padding: 50px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    box-shadow: 5px 5px 7px #c8c8c8c8;
+  }
+
+#h{
+    font-size: 40px;
+    text-align: center;
+}
+#cm{
+    font-size: 23px;
+}
+hr{
+    width: 100px;
+    border: 3px solid;
+    margin-left: 0;
+}
+td{
+      border:1px solid black;
+      width: 200px;
+      height: 5px;
+}
+#a1{
+      color:black;
+}
+/* 체크박스설정 */
+.check input[type="checkbox"]
+{
+      display: none;
+}
+  
+.check input[type="checkbox"] + label{
+      display: inline-block;
+      position: relative;
+      padding-left:30px;
+      
+}
+  
+.check input[type="checkbox"] + label::before{
+      display: inline-block;
+      content:'';
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      line-height:20px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      top:0;
+      background-color: white;
+      border: 1px solid #959da8;
+  
+}
+
+
+.check input[type="checkbox"]:checked + label::before{
+      content:'✔';
+      font-weight: 1px;
+      background-color: black;
+      color:white;
+      
+}
+
+/*모두 동의*/
+.checkin input[type="checkbox"]
+{
+      display: none;
+}
+  
+.checkin input[type="checkbox"] + label{
+      display: inline-block;
+      position: relative;
+      padding-left:30px;
+
+}
+
+.checkin input[type="checkbox"] + label::before{
+    display: inline-block;
+    content:'';
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height:20px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color: white;
+    border: 1px solid #959da8;
+}
+
+
+.checkin input[type="checkbox"]:checked + label::before{
+      content:'✔';
+      font-weight: 1px;
+      background-color: black;
+      color:white;
+}
+
+
+.bt{
+
+    width: 450px;
+    height: 50px;
+    color : #fff;
+    background-color: #959da8;
+    border: none;
+}

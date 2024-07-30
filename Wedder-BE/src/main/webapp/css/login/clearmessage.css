@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* 모양맞추기 */
+.meg{
+    position: absolute;
+    padding: 50px;
+    width: 450px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -45%);
+   
+}
+
+.box{
+    background-color : #e4a2b9;;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    animation: fadeInDown 1s;
+    color : #fff;
+    border: 1px solid black;
+    box-shadow: 5px 5px 7px #c8c8c8c8;
+   
+}
+
+@keyframes fadeInDown{
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+
+.check{
+    
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bt{
+    margin-top: 150px;
+    width: 150px;
+    height: 70px;
+    
+    color: white;
+    background-color: black;
+    position: fixed;
+    right: 80px;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedder-reservation</title>
+    <link rel="stylesheet" href="../../css/common/reset.css" />
+    <link rel="stylesheet" href="../../css/reservation/reservationSelectCompany.css" />
+    <script src="../../js/main/main.js"></script>
+    
+
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <div class="hd__inner1100">
+        <!-- 타이틀 -->
+        <section class="title">
+            <p class="title-sub">원하는 스튜디오, 드레스, 메이크업 업체를 예약해보세요.</p>
+            <h2 class="title-main">Reservation</h2>
+        </section>
+        <!-- 스텝 Bar -->
+        <section class="steps">
+            <div class="steps-bar">
+                <div class="step active">Category</div>
+                <div class="step active">Store</div>
+                <div class="step">Option</div>
+                <div class="step">Date</div>
+                <div class="step">Total</div>
+            </div>
+        </section>
+
+        <!-- 안내 멘트 -->
+        <section class="guide">
+            <h2 class="guide-step">Step.2</h2>
+            <p class="guide-explain">
+                예약을 원하는 업체를 선택해 주세요
+            </p>
+        </section>
+
+        <!-- 검색 필터 분류 -->
+        <section class="tabs">
+            <div class="tab" onclick="openTab('tag-search')">
+                <button>태그 검색</button>
+            </div>
+            <div class="tab" onclick="openTab('schedule-search')">
+               <button>스케줄 검색 </button>
+            </div>
+        </section>
+
+    <section class="container">
+        <!-- 태그로 검색 --> 
+        <section id="tag-container" class="contents">
+            <div class="search-bar">
+                <input type="search" placeholder="카테고리 내 검색">
+                <img id="search-icon" src="https://wdrtest1.s3.ap-northeast-2.amazonaws.com/common/search-icon.png" />
+            </div>
+            <div class="filters purpose-filter">
+                <button class="purpose-btn">웨딩 촬영</button>
+                <button class="purpose-btn">토탈 촬영</button>
+                <button class="purpose-btn">세미 촬영</button>
+                <button class="purpose-btn">가봉 스냅</button>
+                <button class="purpose-btn">데이트 스냅</button>
+            </div>
+            <div class="filters style-filter">
+                <p>스타일</p>
+                <button class="tag-btn">인물 중심</button>
+                <button class="tag-btn">배경 조화</button>
+                <button class="tag-btn">인물+배경</button>
+            </div>
+            <div class="filters price-filter">
+                <p>금액대</p>
+                <button class="tag-btn">Basic</button>
+                <button class="tag-btn">Standard</button>
+                <button class="tag-btn">Premium</button>
+                <button class="tag-btn">High end</button>
+            </div>
+            <div class="filters possible-filter">
+                <p>촬영가능</p>
+                <button class="tag-btn">정원</button>
+                <button class="tag-btn">야간</button>
+                <button class="tag-btn">로드</button>
+                <button class="tag-btn">반려동물</button>
+            </div>
+            <!-- <div class="more-filter">
+                <span>더 많은 검색 필터
+                    <img id="more-icon"
+                     src="https://wdrtest1.s3.ap-northeast-2.amazonaws.com/common/arrow/down-arrow.png"/>
+                </span>
+            </div> -->
+         </section>
+
+        <!-- 스케줄로 검색 -->
+        <section id="schedule-container" class="contents">
+            <div class="filter-schedule">
+                <label>이용 희망일</label>
+                <div id="schedule-list">
+                    <div class="options">
+                        <label><input type="radio" name="hope-date" checked> 요일</label>
+                        <label><input type="radio" name="hope-date"> 날짜</label>
+                    </div>
+                    <div class="select-date">
+                        <select id="date2" name="요일" id="day">
+                            <option value="total">전체</option>
+                            <option value="monday">월요일</option>
+                            <option value="tuesday">화요일</option>
+                            <option value="wednesday">수요일</option>
+                            <option value="thursday">목요일</option>
+                            <option value="friday">금요일</option>
+                            <option value="saturday">토요일</option>
+                            <option value="sunday">일요일</option>
+                        </select>
+                    </div> 
+                    <div class="select-date">
+                        <input id="date1" type="date" placeholder="전체">
+                    </div>
+                </div>
+            </div>
+            <div class="filter-schedule">
+                <label>시간</label>
+                <div id="schedule-list">
+                    <div class="options">
+                        <label><input type="radio" name="hope-time" checked> 시간대</label>
+                        <label><input type="radio" name="hope-time"> 특정시간</label>
+                    </div>
+                    <div class="select-time">
+                        <select id="time1" name="시간대" id="timeslot">
+                            <option value="timeslot">전체</option>
+                            <option value="time-AM">오전(9:00~12:50)</option>
+                            <option value="time-PM">오후(13:00 이후)</option>
+                        </select>
+                    </div>
+                    <div class="select-time">
+                        <select id="time2" name="특정시간" id="time">
+                            <option value="time">전체</option>
+                            <option value="9시">9:00</option>
+                            <option value="10시">10:00</option>
+                            <option value="11시">11:00</option>
+                            <option value="12시">12:00</option>
+                            <option value="13시">13:00</option>
+                            <option value="14시">14:00</option>
+                            <option value="15시">15:00</option>
+                            <option value="16시">16:00</option>
+                            <option value="17시">17:00</option>
+                            <option value="18시">18:00</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+        <!-- 총 업체수, 선택 필터 -->
+        <section>
+            <div class="total">총 84</div>
+            
+        </section>
+
+        <!-- 업체 리스트 -->
+         <section class="company-list">
+            <div class="company-card">
+                <div class="company-img">
+                    <img src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                </div>
+                <div class="company-info">
+                    <h2 class="company-title">빌링스 스튜디오</h2>
+                    <p class="company-subtitle">[웨딩촬영]</p>
+                    <h6 class="company-price">810,000원</h6>
+                    <span>
+                        <img id="star-icon" src="../../assets/images/review-star.png" alt="리뷰 별">
+                        <a id="review-link" href="#">9.8/10 (48개의 후기)</a>
+                    </span>
+                </div>
+            </div>
+            <div class="company-card">
+                <div class="company-img">
+                    <img src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                </div>
+                <div class="company-info">
+                    <h2 class="company-title">빌링스 스튜디오</h2>
+                    <p class="company-subtitle">[웨딩촬영]</p>
+                    <h6 class="company-price">810,000원</h6>
+                    <span>
+                        <img id="star-icon" src="../../assets/images/review-star.png" alt="리뷰 별">
+                        <a id="review-link" href="#">9.8/10 (48개의 후기)</a>
+                    </span>
+                </div>
+            </div>
+            <div class="company-card">
+                <div class="company-img">
+                    <img src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                </div>
+                <div class="company-info">
+                    <h2 class="company-title">빌링스 스튜디오</h2>
+                    <p class="company-subtitle">[웨딩촬영]</p>
+                    <h6 class="company-price">810,000원</h6>
+                    <span>
+                        <img id="star-icon" src="../../assets/images/review-star.png" alt="리뷰 별">
+                        <a id="review-link" href="#">9.8/10 (48개의 후기)</a>
+                    </span>
+                </div>
+            </div>
+            <div class="company-card">
+                <div class="company-img">
+                    <img src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                </div>
+                <div class="company-info">
+                    <h2 class="company-title">빌링스 스튜디오</h2>
+                    <p class="company-subtitle">[웨딩촬영]</p>
+                    <h6 class="company-price">810,000원</h6>
+                    <span>
+                        <img id="star-icon" src="../../assets/images/review-star.png" alt="리뷰 별">
+                        <a id="review-link" href="#">9.8/10 (48개의 후기)</a>
+                    </span>
+                </div>
+            </div>
+            <div class="company-card">
+                <div class="company-img">
+                    <img src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                </div>
+                <div class="company-info">
+                    <h2 class="company-title">빌링스 스튜디오</h2>
+                    <p class="company-subtitle">[웨딩촬영]</p>
+                    <h6 class="company-price">810,000원</h6>
+                    <span>
+                        <img id="star-icon" src="../../assets/images/review-star.png" alt="리뷰 별">
+                        <a id="review-link" href="#">9.8/10 (48개의 후기)</a>
+                    </span>
+                </div>
+            </div>
+            <div class="company-card">
+                <div class="company-img">
+                    <img src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                </div>
+                <div class="company-info">
+                    <h2 class="company-title">빌링스 스튜디오</h2>
+                    <p class="company-subtitle">[웨딩촬영]</p>
+                    <h6 class="company-price">810,000원</h6>
+                    <span>
+                        <img id="star-icon" src="../../assets/images/review-star.png" alt="리뷰 별">
+                        <a id="review-link" href="#">9.8/10 (48개의 후기)</a>
+                    </span>
+                </div>
+            </div>
+         </section>
+
+        <!-- 페이지네이션 -->
+        <section class="pagination">
+            
+        </section>
+
+
+        <!-- 선택 목록 -->
+        <section class="select-list">
+            <div class="select-title">
+                <h1>선택하신 목록</h1>
+            </div>
+            <div class="select-container">
+                <div class="select-company">
+                    <div>
+                        <img id="company-images" src="../../assets/images/reserve-studio-company.png" alt="업체 이미지">
+                    </div>
+                    <div>
+                        <h4 class="select-company-title">빌링스 스튜디오</h4>
+                        <p  class="select-purpose">[웨딩촬영]</p>
+                    </div>
+                </div>
+                <div class="option-container">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 다음 단계 버튼 -->
+        <section class="btn">
+            <a href="../../html/reservation/reservationCategory.html"><button class="btn-pre">이전</button></a>
+            <a href="../../html/reservation/reservationSelectOptions.html"><button class="btn-nxt">다음 단계로</button></a>
+        </section>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script src="../../js/reservation/reservationSelectCompany.js"></script>
+</body>
+</html>

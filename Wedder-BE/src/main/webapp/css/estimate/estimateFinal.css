@@ -1,0 +1,175 @@
+.head {
+    text-align: left;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+.bold {
+    font-weight: bolder;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.back p {
+    margin-top: 10px;
+    color: #757575;
+    font-size: 12px;
+}
+.backButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px ;
+    margin-bottom: 30px;
+}
+.backButton {
+    color: #ca1a5a;
+    font-weight: 700;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 12
+}
+.grid {
+    display: grid;
+    grid-row-gap: 25px;
+
+}
+.notice {
+    padding: 25px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.noticeTitle {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.notice p {
+    font-size: 10px;
+    color: #757575;
+    line-height: 25px;
+}
+.selectedContent {
+    border: 100px;
+}
+.selectedList { 
+    padding: 30px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+.selectedList h1 {
+    margin: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    border-bottom: 1px solid #000;
+}
+.studio {
+    padding: 10px;
+}
+.name {
+    color: #ca1a5a;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+.studio img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+.dress img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+.makeup img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+.studioDetail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options {
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+.detailOption {
+    font-size: 20px;
+    font-weight: 500;
+}
+.option1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(117, 117, 117, 0.7);
+}
+.option2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(117, 117, 117, 0.7);
+}
+.option3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.regular {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    color: #757575;
+}
+.discount {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    color: #757575;
+}
+.discount-color {
+    color: #ca1a5a;
+}
+.final {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 10px;
+}
+.buttons .add {
+    width: 270px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ca1a5a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+.buttons .back {
+    width: 270px;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b6b6b6;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}

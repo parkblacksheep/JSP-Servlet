@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:JDBCJSP" serverId="mvc"/>
+  <module moduleId="org.eclipse.jst.jee.server:HelloJSP4" serverId="mvc"/>
   <module moduleId="org.eclipse.jst.jee.server:HelloServlet" serverId="mvc"/>
   <module moduleId="org.eclipse.jst.jee.server:HelloJSP2_2" serverId="mvc"/>
   <module moduleId="org.eclipse.jst.jee.server:ServletTest" serverId="mvc"/>

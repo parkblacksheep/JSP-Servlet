@@ -1,0 +1,254 @@
+.banner {
+    background-image: url(../../assets/images/estimateBanner.png);
+    height: 170px;
+    padding: 53px 45px;
+    text-align: left;
+    font-size: 15px;
+}
+.banner .bold {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 15px;
+}
+.outer-par {
+    padding: 10px;
+    text-align: left;
+    color: #000;
+}
+.tabs {
+    display: flex;  
+    justify-content:center;
+    margin: 5px 0;
+    padding: 10px 180px;
+    justify-content: space-between;
+}
+.tab {
+    padding: 10px 20px;
+    margin : 0px 30px;
+    font-weight: bold   ;
+    cursor: pointer;
+}
+.tab.active {
+    border-bottom: 2px solid #CA1A5A;
+    font-weight: bold;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 690px auto;
+    grid-gap: 15px;
+}
+.left-panel {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid #757575;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.right-panel {
+    height: 700px;
+    border: 1px solid #757575;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.note {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    padding: 30px;
+    height: 150px;
+    color: #666;
+    font-size: 12px;
+}
+.main img {
+    width: 200px;
+    height:200px;
+    float: left;
+    margin-right: 20px;
+}
+.content-bold {
+    font-weight: 600;
+    font-size: 18px;
+}
+.content-address {
+    font-size: 14px
+}
+.selected {
+    margin: 10px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.content-main {
+    text-align: left;
+}
+.basic-option {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.basicOptionParagraph {
+    font-size: 12px;
+}
+.main-price {
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    vertical-align: middle;
+}
+.right-panel h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+.list-main img {
+    display: flex;
+    float: left;
+    margin-right: 20px;
+}
+.item-main {
+    display: flex;
+}
+.option {
+    display: flex;
+    justify-content: space-between; 
+}
+.item-option .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.item-option {
+    font-size: 10px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.item-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.item-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16x;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.items {
+    margin-bottom: 250px;
+}
+.total {
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #555;
+}
+.img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.option {
+    margin-bottom: 15px;
+}
+.option span {
+    display: block;
+    margin-bottom: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons .next {
+    width: 270px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+.buttons .back {
+    width: 270px;
+    height: auto;
+    font-size: 14px;
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+.total1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.total2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #757575;
+}
+.total2 .color {
+    color: #CA1A5A;
+}
+.total3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price {
+    margin-bottom: 10px;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 14
+}
+.replay {
+    display: flex;
+    justify-content: right;
+    margin-top: 52px;
+    font-size: 13px;
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
