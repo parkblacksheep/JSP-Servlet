@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="../../js/myPage/myPage-main.js"></script>
+    <title>마이페이지 사이드바</title>
+  </head>
+  <body>
+    <nav class="mypage-menu">
+      <ul>
+        <li class="myProfile menu-section">
+          <span class="title"> <b>My Profile</b></span>
+          <br />
+          <ul class="list">
+            <li class="item">
+              <a href="../../html/mypage/mypage.html">MyProfile</a>
+            </li>
+
+            <li class="item" id="myPage_Visit">
+              <a href="../../html/mypage/mypage.html">방문 일정</a>
+            </li>
+
+            <li class="item" id="myPage_Reservation">
+              <a href="../../html/mypage/mypage.html">예약 현황</a>
+            </li>
+            <br />
+            <li class="item">
+              <a href="../../html/mypage/like-list.html">My-Like</a>
+            </li>
+
+            <li class="item">
+              <a href="../../html/mypage/myPayment.html">결제 내역</a>
+            </li>
+            <li class="item">
+              <a href="#" class="open-modal">나의 연인 추가</a>
+            </li>
+            <div class="balck-bg">
+              <div class="white-bg">
+                <h2>커플링 연결</h2>
+                <form class="coupling-modal" action="" method="post">
+                  <p>본인의 연인의 이름을 입력해주세요~</p>
+                  <div class="partner-content">
+                    파트너의 이름:
+                    <input type="text" class="form-name" id="name" />
+                  </div>
+                  <div class="partner-content">
+                    파트너의 이메일: <input type="email" class="form-class" />
+                  </div>
+                  <br />
+                  <button type="submit" class="btn btn-submit" id="next">
+                    next
+                  </button>
+                  <button type="button" class="btn btn-close">close</button>
+                </form>
+              </div>
+            </div>
+
+            <li class="item">
+              <a href="../../html/mypage/couple-page.html">커플 페이지 </a>
+            </li>
+            <li class="item">
+              <a href="../../html/mypage/estimate-storage.html">견적함</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-section">
+          <span class="title"><b>설정</b></span>
+          <ul class="list">
+            <li class="item"><a href="#">계정 설정</a></li>
+            <li class="item"><a href="#">시스템 설정</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

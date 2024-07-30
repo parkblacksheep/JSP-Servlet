@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="../../css/login/login.css" />
+
+  
+    
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <div class = "login-wrapper">
+        <!--Wedder글자-->
+        <div class = "logo">
+            <label  class="Wedder" onclick="main();"><b>Wedder</b></label>
+        </div>
+
+        
+        <br />
+        
+        <div class = "Log">
+            <!--로그인창-->
+            <div class = "Loging">
+                <label for ="EmailID">
+                    Email Address<br />
+                </label>
+                <div id="drop_the_text">
+                <input type ="email"  id ="EmailID"/>
+                </div>
+                <br /><br />      
+                <label for = "Password">
+                Password
+                </label>
+                <!-- 비밀번호 찾기 -->
+                <div id="forgotin" style="display:inline;">
+                <button id = "forgot" onclick="showPopup();">Forgot Password</button>
+                </div>
+                <div class="passwordSet">
+                    <input type="password" id="Password" maxlength="20" min="8">
+                    <img src = "file:///C:/Users/WD/Downloads/visibility_24dp_5F6368_FILL0_wght400_GRAD0_opsz24%20(1).svg" class="btn">
+                </div>
+                <div class="false">Please enter correct password</div>
+            </div>
+            <br /><br/>
+
+            <!--로그인 유지 체크-->
+            <div class ="check">
+                <input type ="checkbox" id = "checkIn"/>
+                <label for ="checkIn">
+                keep me signed in
+                </label>
+            </div>
+            <!--로그인 확인-->
+            <br />
+            <div class = "Continue">
+                <input type="button" value="Continue" id="continue" />
+            
+            </div>
+            <br />
+            <!--다른방식의 로그인-->
+            <div class="sign"> 
+                    or sign up withv
+            </div>
+            <br />
+            <div class ="ChangeButton">
+                <button class ="chg">
+                        <img src ="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791548/noticon/zxi0bnl5h66bszdpjaet.jpg" width="11px" height="11px" class="Clogo">
+                        &nbsp; Google
+                </button>
+                <button class ="chg">
+                        <img src ="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566791426/noticon/iqusgjw4nm8pqgkbjj5f.png"  width="10px" height="10px" class="Clogo">
+                        &nbsp; Apple
+                </button>
+                <button class ="chg">
+                        <img src ="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008602/noticon/ird3id54hstap8dtokdx.png"  width="10px" height="10px" class="Clogo">
+                        &nbsp; Facebook
+                </button>
+                <br /> 
+            </div>
+        
+            <br />
+            <div class="Singup">
+            <label>Don`t have an Account?</label>
+            <a onclick="window.open('agreement.html')" id ="LoginButton"> Sing up here</a>
+            </div>
+            </div>
+            <!--법적--> 
+            <div class = "law">
+            <ul>
+                <button id ="use" onclick="usePopup();">이용약관</button>&emsp;
+                <button id ="privacy" onclick="privacyPopup();">개인정보처리방침</button>&emsp;
+                <button id = "marketing" onclick="marketingPopup();">마케팅 목적의 개인정보 수집 및 이용 동의</button>&emsp;
+            </ul>
+        </div>
+
+        
+
+    </div>
+    <script defer src ="../../js/login/login.js"></script>
+    
+</body>
+</html>

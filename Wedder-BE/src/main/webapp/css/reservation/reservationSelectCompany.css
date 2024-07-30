@@ -1,0 +1,452 @@
+/* 타이틀 */
+.title {
+    text-align: left;
+    color: #ca1a5a;
+}
+
+.title-sub {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+
+.title-main {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* 스텝 Bar */
+.steps-bar {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+}
+
+.step {
+    color: #737373;
+    position: relative;
+    flex: 1;
+    padding: 13px 20px;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+.step::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #f3f3f3;
+    z-index: 1;
+}
+
+.step:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    z-index: 2;
+}
+
+.step.active::after {
+    border-left-color: #000;
+}
+
+.step.active {
+    background: #000;
+    color: #fff;
+}
+
+/* 안내멘트 */
+.guide {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.guide-step {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin: 0;
+    margin-right: 5px;
+
+}
+
+.guide-explain {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    padding-top: 3px;
+    padding-left: 11px;
+}
+
+/* 검색 필터 분류 */
+.tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.tab {
+    width: 550px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #757575;
+    justify-content: center;
+    align-items: center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.tab > button {
+    all: unset;
+}
+
+.tab-selected {
+    color: #ca1a5a;
+    border-bottom: 2px solid #ca1a5a;
+}
+
+
+/* 태그로 검색 */
+.contents {
+    display: none;
+}
+
+.search-bar {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.search-bar > input {
+    width: 900px;
+    margin: 0px 100px;
+    padding: 15px;
+    border: 1px solid #dddddd; 
+    border-radius: 4px;
+}
+
+#search-icon {
+    position: absolute; 
+    top: 16px; 
+    right: 120px; 
+    width: 17px;
+    height: 17px;
+}
+
+.contents-active {
+    display: block;
+}
+
+/* 태그 검색의 태그들 */
+.filters {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    margin: 12px 100px;
+}
+
+.filters > button {
+    font-size: 15px;
+    padding: 6px 18px;
+    justify-content: space-between;
+    border: none;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.filters > button:hover {
+    color: #ca1a5a;
+}
+
+.filters > p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0 0 45px
+}
+
+.filters.purpose-filter > button {
+    font-weight: 600;
+    justify-content: center;
+    margin: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px
+}
+
+.filters.purpose-filter > button:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px
+}
+
+.filters.style-filter, .filters.price-filter, .filters.possible-filter {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.purpose-btn-selected {
+    color: #fff;
+    background-color: #000;
+}
+
+.tag-btn-selected {
+    color: #ca1a5a;
+}
+
+
+/* 더 많은 검색 필터 */
+
+/* .more-filter {
+    display: flex;
+    position:relative;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#more-icon {
+    position: absolute; 
+    top: 10px; 
+    right: 0px; 
+    padding-top: 3px;
+    margin-left: 10px;
+    width: 17px;
+    height: 17px;
+} */
+
+
+/* 스케줄로 검색 */
+.filter-schedule {
+    display: grid;
+    grid-template-columns: 150px 240px;
+    margin: 0 100px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.filter-schedule > label {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+}
+
+#schedule-list {
+    border-left: 1px solid #ccc;
+    padding: 3px 20px;
+    
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.options > label {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.select-date, .select-time {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    accent-color: #ca1a5a;
+}
+
+#date1, #time1 {
+    display: inline-block;
+}
+
+#date2, #time2 {
+    display: none;
+}
+
+
+/* 총 업체수 */
+.total {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 95px;
+}
+
+/* 업체 리스트 */
+.company-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 40px;
+    margin: 40px 100px;
+}
+
+.company-card {
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 7px #eeeeee;
+}
+
+.company-img img{
+    width:  100%;
+    height: 100%;
+}
+
+.company-info {
+    position: relative;
+    padding: 15px;
+}
+
+.company-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.company-subtitle {
+    font-size: 13px;
+    color: #667085;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.company-price {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#star-icon {
+    position: absolute;
+    left: 12px;
+    bottom: 15px;
+    width: 21px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#review-link {
+    font-size: 13px;
+    font-weight: 400;
+    color: #667085;
+    text-decoration-line: none;
+    margin-left: 23px;
+}
+
+.company-card-selected {
+    background-color: rgba(255, 203, 222, 0.1); 
+    border: 1px solid rgba(255, 203, 222, 1.2);
+    /* box-shadow: 5px 5px 7px rgba(255, 203, 222, 0.5); */
+}
+
+/* 페이지네이션 */
+
+
+/* 선택 목록 */
+.select-list {
+    padding: 10px; 
+    background-color: #fff;
+    position: sticky;
+    bottom: 0px;
+}   
+
+.select-title {
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.select-title > h1 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+    padding: 7px 17px;
+}
+
+.select-container {
+    display: flex;
+}
+
+.select-company {
+    display: none;
+}
+
+/* .select-comapny-appear {
+    display: block;
+} */
+
+#company-images{
+    width: 120px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.select-company-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.select-purpose {
+    font-size: 12px;
+    color: #667085;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.select-options {
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+}
+
+/* 다음 단계 버튼 */
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 10px;
+}
+
+.btn-pre {
+    padding: 10px 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-nxt {
+    padding: 10px 120px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.btn-pre:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.btn-nxt:hover {
+    background-color: #717171;
+    border: 1px solid #717171;
+}

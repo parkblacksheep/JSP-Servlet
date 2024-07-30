@@ -1,0 +1,318 @@
+/* 0. 구조 설정 */
+.myPage-container {
+  display: flex;
+  justify-content: space-between;
+}
+.myPage-sidebar {
+  width: 240px;
+}
+.myPage-content {
+  width: 960px;
+  min-height: 1000px;
+}
+
+/* 1. 견적함 제목 */
+.estimate-title {
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+.category {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-myestimate {
+  font-size: 21px;
+  font-weight: 600;
+  color: #ca1a5a;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 20px;
+  padding-top: 7px;
+}
+
+/* 2. 견적함 박스 */
+.estimate-storage {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin: 20px 10px;
+}
+
+.storage {
+  position: relative;
+  height: 185px;
+  border: 1px solid #757575;
+  padding: 20px;
+}
+
+.storage-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.storage-total-price {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ca1a5a;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.total-product {
+  font-size: 12px;
+  font-weight: 400;
+  color: #757575;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.arrow img {
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  right: 25px;
+  top: 23px;
+}
+
+.company-list {
+  display: flex;
+}
+
+.company-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* 3. 견적서 모달창 */
+.modal {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  display: none;
+}
+
+.modal-content {
+  max-width: 900px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.modal.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.selectedList {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.selectedList h1 {
+  font-size: 19px;
+  font-weight: 600;
+  width: 825px;
+  margin: 0;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+}
+
+.estimate-list {
+  display: flex;
+  width: 830px;
+  height: 240px;
+  padding: 10px;
+}
+
+.product-img {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.product-img > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* .company-options {
+    height: 230px;
+    display: flex;
+    padding: 15px;
+} */
+
+.company-content {
+  width: 650px;
+  padding: 12px 20px;
+}
+
+.company-name {
+  color: #ca1a5a;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.company-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 13px;
+}
+
+.basic-option {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.price-basic {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.company-options {
+  margin-top: 10px;
+}
+
+.detail-option {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.options {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+  border-bottom: 1px solid #fff;
+}
+
+.option:nth-last-child(1) {
+  border: none;
+}
+
+.option p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.priceDetail {
+  width: 800px;
+}
+
+.regular,
+.discount,
+.final {
+  margin-left: 10px;
+}
+
+.regular {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  color: #757575;
+}
+.discount {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  color: #757575;
+}
+.discount-color {
+  color: #ca1a5a;
+}
+.final {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 10px;
+  margin-right: 25px;
+}
+
+.modal-close-btn {
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 6px 40px;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  background-color: #eee;
+  border: 1px solid #000;
+}
+
+.payment-btn {
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #ca1a5a;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ca1a5a;
+  padding: 6px 40px;
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+  border: 1px solid rgba(202, 26, 90, 0.2);
+  background-color: rgba(202, 26, 90, 0.4);
+}

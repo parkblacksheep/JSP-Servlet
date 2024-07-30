@@ -1,0 +1,161 @@
+.slider-box {
+    height: 75vh;
+}
+.slider-box .swiper {
+    height:100%;
+}
+.swiper > .swiper-wrapper > .swiper-slide:nth-child(odd) {
+    background-color: rgba(206, 26, 90, 0.15);
+}
+.swiper > .swiper-wrapper > .swiper-slide:nth-child(even) {
+    background-color: rgba(206, 26, 90, 0.15);
+}
+.paragraph {
+    text-align: left;
+    margin: 170px 500px;
+}
+.title-bold {
+    font-size: 50px;
+    font-weight: bold;
+}
+.par1 {
+    margin: 20px 0px 20px;
+    color: #666;
+}
+.par2 {
+    margin: 20px 0px 20px;
+    color: #666;
+}
+.color {
+    color : red;
+    text-align: text-bottom;
+}
+.par3 {
+    margin: 20px 0px 20px;
+    color: #666;
+}
+.gift {
+    position: fixed;
+    top: 155px;
+    right: 214px;
+}
+.coin {
+    position: fixed;
+    top: 292px;
+    right: 473px;
+}
+span.color {
+    color: red;
+    vertical-align: text-bottom;
+}
+/* 상단 그리드 */
+.top-grid {
+    display: flex;
+}
+.top {
+    margin-top: 60px;
+}
+.pack-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.grid {
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #eeeeee;
+    padding: 10px;
+}
+.package-picture img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+.con {
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #757575;
+}
+.con img {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    object-fit: cover;
+    float: left;
+}
+.con-non {
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.con-non img {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    object-fit: cover;
+    float: left;
+}
+.con-par {
+    padding: 5px;
+}
+.detail {
+    display: flex;
+    justify-content: right;
+    font-size: 10px;
+    font-weight: 700;
+}
+.con-par .up {
+    color: #757575;
+    font-size: 9px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.con-par .down{
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+}
+/* 하단 그리드 */
+.bot {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.range {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.range-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.price-range .button-price {
+    border: none;
+    font-size: 14px;
+    color: #757575;
+}
+.bot-gridd {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+}
+.gridd {
+    margin-top: 30px;
+}
+.gridd-pic img {
+    border-radius: 5px;
+}
+.gridd .name {
+    font-size: 14px;
+    font-weight: 700;
+}
+.gridd .cost {
+    color: #ca1a5a;
+    font-size: 14px;
+}
